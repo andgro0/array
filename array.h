@@ -1,0 +1,10 @@
+int findMinimum( int *array, int size );
+int findMaximum( int *array, int size );
+double calcAverage( int *array, int size );
+double findMedian( int *array, int size );
+void swapElements( int *array, int size, int a, int b );
+void randomizeArray( int *array, int size, unsigned int maxValue );
+int* resizeArray( int *array, int size, int newSize );
+int loadFromFile( int *array, char *filename );
+unsigned int saveToFile( int *array, int size, char *filename );
+void bubbleSort( int *array, int size );
